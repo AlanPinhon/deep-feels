@@ -1,3 +1,5 @@
+![Deep Feels Banner](/src/assets/img/banner/banner_github.jpg)
+
 # Deep Feels
 
 Deep Feels es una aplicación que ayuda a las personas a relajarse y mejorar su estado de ánimo. Ofrece una variedad de sonidos relajantes, incluyendo música calmante, sonidos de la naturaleza y sonidos binaurales, entre otros.
