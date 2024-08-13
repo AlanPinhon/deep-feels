@@ -1,7 +1,10 @@
-import { DeepFeelsRouter } from './routes/DeepFeelsRouter'
+import { AuthProvider } from './auth/context/AuthProvider';
+import { AppRouter } from './router/AppRouter';
 
 export const DeepFeelsApp = () => {
   return (
-    <DeepFeelsRouter/>
+    <AuthProvider>
+      <AppRouter/>
+    </AuthProvider>
   )
 }
