@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { AuthContext } from '../../auth/context/AuthContext';
 
-export const Profile = () => {
+export const Settings = () => {
   const { logout } = useContext(AuthContext);
 
   const onLogout = () => {
@@ -10,7 +10,7 @@ export const Profile = () => {
 
   return (
     <>
-      <h1>Profile</h1>
+      <h1>Settings</h1>
       <button onClick={ onLogout }>Logout</button>
     </>
   )
