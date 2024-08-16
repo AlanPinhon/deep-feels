@@ -7,7 +7,7 @@ import { Appearance, ChangePassword, EmotionSelector, Explore, Favorites, Home, 
 export const AppRouter = () => {
   return (
     <Routes>
-      <Route path='/' element={ <PublicRoute/> }>
+      <Route path='/*' element={ <PublicRoute/> }>
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
         <Route path="forgot-password" element={<ForgotPassword />} />
