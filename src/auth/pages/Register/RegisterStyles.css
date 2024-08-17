@@ -1,24 +1,15 @@
 @media (width < 480px) {
-
-  .login-img {
+  .register-img {
     margin: 4rem 0;
   }
 
-  .login-form {
+  .register-form {
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
 
-  .login-options-container {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
-  }
-
-  .link-register-container {
+  .link-login-container {
     display: flex;
     justify-content: space-between;
     align-items: center;

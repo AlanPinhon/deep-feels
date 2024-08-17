@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import './LoginStyles.css';
 
 export const Login = () => {
+  const { login } = useContext(AuthContext);
 
   const [emailValue, setEmailValue] = useState('');
   const [passwordValue, setPasswordValue] = useState('');
@@ -14,8 +15,6 @@ export const Login = () => {
   const onPasswordValue = ({ target }: ChangeEvent<HTMLInputElement>) => setPasswordValue(target.value);
 
   const handleChecked = () => setIsChecked(!isChecked);
-
-  const { login } = useContext(AuthContext);
 
   const onLogin = () => {
     login();
@@ -37,7 +36,7 @@ export const Login = () => {
       <form className='login-form' action="">
         <Text variant='label'>
           Email
-          <Input type='text' placeholder='usuario@correo.com' value={emailValue} onChange={onEmailValue}/>  
+          <Input type='email' placeholder='usuario@correo.com' value={emailValue} onChange={onEmailValue}/>  
         </Text>
         <Text variant='label'>
           Contraseña
