@@ -1,4 +1,4 @@
-export * from './EmailSent';
+export * from './EmailSent/EmailSent';
 export * from './ForgotPassword/ForgotPassword';
 export * from './Login/Login';
 export * from './PasswordRecovery';
