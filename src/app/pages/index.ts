@@ -1,6 +1,6 @@
 export * from './Appearance';
 export * from './ChangePassword';
-export * from './EmotionSelector';
+export * from './EmotionSelector/EmotionSelector';
 export * from './Explore';
 export * from './Favorites';
 export * from './Home';
