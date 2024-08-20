@@ -3,7 +3,7 @@ export * from './ChangePassword';
 export * from './EmotionSelector/EmotionSelector';
 export * from './Explore';
 export * from './Favorites';
-export * from './Home';
+export * from './Home/Home';
 export * from './Information';
 export * from './Player';
 export * from './Settings';
