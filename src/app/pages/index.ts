@@ -1,5 +1,5 @@
 export * from './Appearance';
-export * from './ChangePassword';
+export * from './ChangePassword/ChangePassword';
 export * from './EmotionSelector/EmotionSelector';
 export * from './Explore';
 export * from './Favorites';
