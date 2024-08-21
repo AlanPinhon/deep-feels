@@ -4,6 +4,6 @@ export * from './EmotionSelector/EmotionSelector';
 export * from './Explore';
 export * from './Favorites';
 export * from './Home/Home';
-export * from './Information';
+export * from './Information/Information';
 export * from './Player';
 export * from './Settings/Settings';
