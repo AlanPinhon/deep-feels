@@ -1,0 +1,19 @@
+@media (width < 480px) {
+  .user-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 9rem;
+    margin: 2rem 0;
+    background-color: #d0d1e1;
+    border-radius: 50%;
+  }
+
+  .user-info-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+}

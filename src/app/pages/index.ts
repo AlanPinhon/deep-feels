@@ -6,4 +6,4 @@ export * from './Favorites';
 export * from './Home/Home';
 export * from './Information';
 export * from './Player';
-export * from './Settings';
+export * from './Settings/Settings';
