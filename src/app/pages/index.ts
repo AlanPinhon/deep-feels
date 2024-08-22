@@ -1,4 +1,4 @@
-export * from './Appearance';
+export * from './Appearance/Appearance';
 export * from './ChangePassword/ChangePassword';
 export * from './EmotionSelector/EmotionSelector';
 export * from './Explore/Explore';
