@@ -1,6 +1,7 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { PublicRoute } from './PublicRoute';
 import { PrivateRoute } from './PrivateRoute';
+import { HomeRoutes } from '../app/routes/HomeRoutes';
 import { EmailSent, ForgotPassword, Login, PasswordRecovery, PasswordReset, Register } from '../auth/pages';
 import { Appearance, ChangePassword, EmotionSelector, Explore, Favorites, Home, Information, Player, Settings } from '../app/pages';
 
@@ -19,14 +20,16 @@ export const AppRouter = () => {
       </Route>
 
       <Route path='/*' element= { <PrivateRoute/> }>
-        <Route path="home" element={<Home />} />
-        <Route path="explore" element={<Explore/>} />
-        <Route path="favorites" element={<Favorites/>} />
+        <Route path='/*' element={ <HomeRoutes/> }>
+          <Route path="home" element={<Home />} />
+          <Route path="explore" element={<Explore/>} />
+          <Route path="favorites" element={<Favorites/>} />
+          <Route path="settings" element={<Settings/>} />
+        </Route>
+
         <Route path="settings/info" element={<Information/>} />
-        <Route path="settings" element={<Settings/>} />
         <Route path="settings/appearance" element={<Appearance/>} />
         <Route path="settings/change-password" element={<ChangePassword/>} />
-        <Route path="settings" element={<Settings/>} />
         <Route path="player" element={<Player />} />
         <Route path="emotion-selector" element={<EmotionSelector />} />
 
