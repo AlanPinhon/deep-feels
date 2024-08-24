@@ -18,4 +18,20 @@
     gap: 1rem;
     text-align: center;
   }
+
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 20.75rem;
+    gap: 2rem;
+    padding: .5rem 1rem;
+    margin: 2rem 0;
+  }
+
+  .menu-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
