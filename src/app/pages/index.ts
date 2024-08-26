@@ -5,5 +5,5 @@ export * from './Explore/Explore';
 export * from './Favorites/Favorites';
 export * from './Home/Home';
 export * from './Information/Information';
-export * from './Player';
+export * from './Player/Player';
 export * from './Settings/Settings';

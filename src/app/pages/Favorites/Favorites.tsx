@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { SoundsHeader } from '../../../components';
+import { AudioCard } from '../../../components/AudioCard/AudioCard';
 import './FavoritesStyles.css';
 
 export const Favorites = () => {
@@ -14,6 +15,15 @@ export const Favorites = () => {
         value={searchValue}
         setSearchValue={setSearchValue}
       />
+
+      <div className="audios-container">
+        <AudioCard/>
+        <AudioCard/>
+        <AudioCard/>
+        <AudioCard/>
+        <AudioCard/>
+        <AudioCard/>
+      </div>
     </div>
   )
 }
