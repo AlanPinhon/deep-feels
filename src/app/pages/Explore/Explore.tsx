@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { SoundsHeader } from '../../../components';
 import './ExploreStyles.css';
+import { CategoryCard } from '../../../components/CategoryCard/CategoryCard';
 
 export const Explore = () => {
 
@@ -14,6 +15,15 @@ export const Explore = () => {
         value={searchValue}
         setSearchValue={setSearchValue}
       />
+
+      <div className="audios-container">
+        <CategoryCard/>
+        <CategoryCard/>
+        <CategoryCard/>
+        <CategoryCard/>
+        <CategoryCard/>
+        <CategoryCard/>
+      </div>
     </div>
   )
 }
