@@ -34,4 +34,17 @@
     justify-content: space-between;
     width: 100%;
   }
+
+  .audio-card-info{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgba(0, 0, 0, .65);
+  }
 }

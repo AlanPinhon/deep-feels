@@ -1,9 +1,8 @@
 @media (width < 480px) {
-  .audio-card-lg-container {
+  .audio-card-container {
     position: relative;
-    width: 100%;
+    width: 10.25rem;
     height: 12.5rem;
-    margin: 1rem 0;
     display: flex;
     flex-direction: column;
     background-color: lightgray;
