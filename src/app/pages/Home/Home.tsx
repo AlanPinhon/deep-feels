@@ -13,7 +13,7 @@ export const Home = () => {
           <Text variant='sm'>¿Cómo te sientes el día de hoy?</Text>
         </div>
 
-        <Icon name='UserIcon' size='lg' background/>
+        <Icon name='UserIcon' size='sm' background/>
       </div>
 
       <div className="feels-component"></div>

@@ -25,28 +25,28 @@ export const Appearance = () => {
     <div className="container">
 
       <Link className='back-btn' to="/settings">
-        <Icon name='ArrowLeftIcon' size='lg'/>
+        <Icon name='ArrowLeftIcon' size='sm'/>
       </Link>
 
       <Text variant='h3'>Apariencia</Text>
 
       <div className='menu-container'>
         <div className='menu-option'>
-          <Icon name='LightIcon' size='lg' background style={{marginRight: "1rem"}}/> 
+          <Icon name='LightIcon' size='sm' background style={{marginRight: "1rem"}}/> 
           <Text htmlFor='light-theme' variant='label' color={colors.purple[500]} style={{display: 'flex', flexDirection: "row-reverse", alignItems: "center"}}>
               <Radio id='light-theme' name='theme' value='light' onChange={handleRadioCheck} checked={checkRadio === 'light'} style={{marginLeft: "5rem"}}/>
             Light Theme
           </Text>
         </div>
         <div className='menu-option'>
-          <Icon name='DarkIcon' size='lg' background style={{marginRight: "1rem"}}/>
+          <Icon name='DarkIcon' size='sm' background style={{marginRight: "1rem"}}/>
           <Text htmlFor='dark-theme' variant='label' color={colors.purple[500]} style={{display: 'flex', flexDirection: "row-reverse", alignItems: "center"}}>
               <Radio id='dark-theme' name='theme' value='dark' onChange={handleRadioCheck} checked={checkRadio === 'dark'} style={{marginLeft: "5rem"}}/>
             Dark Theme
           </Text>
         </div>
         <div className='menu-option'>
-          <Icon name='MobileIcon' size='lg' background style={{marginRight: "1rem"}}/>
+          <Icon name='MobileIcon' size='sm' background style={{marginRight: "1rem"}}/>
           <Text htmlFor='device-theme' variant='label' color={colors.purple[500]} style={{display: 'flex', flexDirection: "row-reverse", alignItems: "center"}}>
               <Radio id='device-theme' name='theme' value='device' onChange={handleRadioCheck} checked={checkRadio === 'device'} style={{marginLeft: "5rem"}}/>
             Theme device

@@ -15,7 +15,7 @@ export const ForgotPassword = () => {
   return (
     <div className="container">
       <Link className='back-btn' to="/login">
-        <Icon name='ArrowLeftIcon' size='lg'/>
+        <Icon name='ArrowLeftIcon' size='sm'/>
       </Link>
 
       <img className='forget-pass-img' src="" alt="Olvidé mi contraseña" />

@@ -15,20 +15,20 @@ export const Information = () => {
     <div className="container">
 
       <Link className='back-btn' to="/settings">
-        <Icon name='ArrowLeftIcon' size='lg'/>
+        <Icon name='ArrowLeftIcon' size='sm'/>
       </Link>
 
       <Text variant='h3'>Información</Text>
 
       <div className="img-container">
         <div className="user-img-info">
-          <Icon name='UserIcon' size='xl'/>
+          <Icon name='UserIcon' size='lg'/>
         </div>
         
         <Icon
           style={{position: 'absolute', right: '0', bottom: '2rem'}}
           name='CameraIcon'
-          size='lg'
+          size='sm'
           background/>
       </div>
 

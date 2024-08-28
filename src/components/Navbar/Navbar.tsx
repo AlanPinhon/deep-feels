@@ -6,16 +6,16 @@ export const Navbar = () => {
   return (
     <div style={{backgroundColor: colors.lightPurple[200]}} className="navbar-container">
       <Link to="/home">
-        <Icon name="HomeIcon" size="lg" stroke=""/>
+        <Icon name="HomeIcon" size="sm" stroke=""/>
       </Link>
       <Link to="/explore">
-        <Icon name="CompassIcon" size="lg" stroke=""/>      
+        <Icon name="CompassIcon" size="sm" stroke=""/>      
       </Link>
       <Link to="/favorites">
-        <Icon name="HeartIcon" size="lg" stroke="" fill='none'/>
+        <Icon name="HeartIcon" size="sm" stroke="" fill='none'/>
       </Link>
       <Link to="/settings">
-        <Icon name="SettingsIcon" size="lg" stroke=""/>
+        <Icon name="SettingsIcon" size="sm" stroke=""/>
       </Link>
     </div>
   )

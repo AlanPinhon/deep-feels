@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import { AuthContext } from '../../../auth/context/AuthContext';
 import { Button, colors, Icon, Text } from '@alanpinhon/deep-feels-ui';
-import './SettingsStyles.css';
 import { Link } from 'react-router-dom';
+import './SettingsStyles.css';
 
 export const Settings = () => {
   const { logout } = useContext(AuthContext);
@@ -16,7 +16,7 @@ export const Settings = () => {
       <Text variant='h3'>Ajustes</Text>
 
       <div className="user-img-container">
-        <Icon name='UserIcon' size='xl'/>
+        <Icon name='UserIcon' size='lg'/>
       </div>
 
       <div className="user-info-container">
@@ -26,27 +26,27 @@ export const Settings = () => {
 
       <div className='menu-container'>
         <Link className='menu-option' to='/settings/info'>
-          <Icon name='UserIcon' size='lg' background style={{marginRight: "1rem"}}/> 
+          <Icon name='UserIcon' size='sm' background style={{marginRight: "1rem"}}/> 
           <Text htmlFor='light-theme' variant='sm' color={colors.purple[500]} style={{display: 'flex', flexDirection: "row-reverse", alignItems: "center"}}>
             Información personal
           </Text>
-          <Icon name='ArrowRightIcon' size='lg'/>
+          <Icon name='ArrowRightIcon' size='sm'/>
         </Link>
 
         <Link className='menu-option' to='/settings/change-password'>
-          <Icon name='LockIcon' size='lg' background style={{marginRight: "1rem"}}/>
+          <Icon name='LockIcon' size='sm' background style={{marginRight: "1rem"}}/>
           <Text htmlFor='dark-theme' variant='sm' color={colors.purple[500]} style={{display: 'flex', flexDirection: "row-reverse", alignItems: "center"}}>
             Cambiar contraseña
           </Text>
-          <Icon name='ArrowRightIcon' size='lg'/>
+          <Icon name='ArrowRightIcon' size='sm'/>
         </Link>
 
         <Link className='menu-option' to='/settings/appearance'>
-          <Icon name='ThemeIcon' size='lg' background style={{marginRight: "1rem"}}/>
+          <Icon name='ThemeIcon' size='sm' background style={{marginRight: "1rem"}}/>
           <Text htmlFor='device-theme' variant='sm' color={colors.purple[500]} style={{display: 'flex', flexDirection: "row-reverse", alignItems: "center"}}>
             Apariencia
           </Text>
-          <Icon name='ArrowRightIcon' size='lg'/>
+          <Icon name='ArrowRightIcon' size='sm'/>
         </Link>
 
       </div>
