@@ -1,0 +1,28 @@
+@media (width < 480px) {
+
+  .login-img {
+    margin: 4rem 0;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .login-options-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .link-register-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    gap: .75rem;
+  }
+}

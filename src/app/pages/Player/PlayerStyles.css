@@ -1,0 +1,16 @@
+@media (width < 480px) {
+  .audio-info-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .audio-img {
+    margin: 5rem 0;
+  }
+
+  .player-controls {
+    margin: 4rem 0;
+  }
+}

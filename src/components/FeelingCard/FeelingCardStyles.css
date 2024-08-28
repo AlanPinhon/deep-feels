@@ -1,0 +1,20 @@
+@media (width < 480px) {
+  .feeling-card {
+    width: 10.25rem;
+    height: 10.25rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
+  }
+
+  .feeling-img {
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #F2F3F7;
+  }
+
+}

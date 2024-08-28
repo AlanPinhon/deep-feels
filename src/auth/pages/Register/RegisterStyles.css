@@ -1,0 +1,19 @@
+@media (width < 480px) {
+  .register-img {
+    margin: 4rem 0;
+  }
+
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .link-login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    gap: .75rem;
+  }
+}
